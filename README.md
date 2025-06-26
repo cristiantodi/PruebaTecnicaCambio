@@ -119,6 +119,7 @@ prueba
 ## 📄 Preguntas escritas
 
 1. ¿Qué buenas prácticas aplica al versionar código con Git?
+```bash
 
 Commits pequeños y con mensajes significativos.
 
@@ -127,9 +128,10 @@ Uso de ramas por funcionalidad (feature/api-articulos).
 .gitignore bien configurado para excluir entorno, DB y migraciones temporales.
 
 README claro y actualizado.
-
+```
 
 2. ¿Cómo abordaría el despliegue en producción?
+```bash
 
 Base de datos como PostgreSQL.
 
@@ -138,13 +140,18 @@ Servidor web Nginx.
 HTTPS, variables de entorno, y control de acceso a admin.
 
 Logs centralizados y monitoreo básico.
+```
 
 3. ¿Tiene experiencia previa trabajando en plataformas CMS o CRM?
-
+4. 
+```bash
 Tengo experiencia en CRM con PressexLogistic en el cual realizamos un ERP en el cual se realiza un seguimiento un seguimiento de paqueteria, productos y clientes.
+```
 
 4. Indicar si se utilizó y en caso afirmativo explicar brevemente; la integración de
 modelos built-in de Django, en especial el modelo auth.User con los modelos que
 fueron creados para la aplicación.
 
+```bash
 No se utilizó directamente en esta prueba, sin embargo se realizo Override del user con el fin que si se extiende el proyecto se pueda manejar usuarios avanzados.
+```
